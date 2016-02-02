@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/ec2-user/spark-simple-app/project/}spark-simple-app-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/yu-yamano/spark-simple-app/project/}spark-simple-app-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#spark-simple-app-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -20,7 +20,7 @@
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.13.0!ivy.xml(ivy.original) (1339ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.13.0!ivy.xml(ivy.original) (3689ms)[0m
 [0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.13.0 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.13.0->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)][0m
@@ -36,7 +36,7 @@
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalactic#scalactic_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/ec2-user/.ivy2/local/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /Users/yu-yamano/.ivy2/local/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalactic#scalactic_2.10;2.2.1[0m
 [0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom[0m
 [0m[[0mdebug[0m] [0m	jcenter: found md file for org.scalactic#scalactic_2.10;2.2.1[0m
@@ -45,12 +45,12 @@
 [0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom[0m
 [0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.pom(pom.original) (296ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.pom(pom.original) (643ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/ec2-user/.ivy2/local/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/yu-yamano/.ivy2/local/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scalactic#scalactic_2.10;2.2.1 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.13.0->org.scalactic#scalactic_2.10;2.2.1 [compile->runtime][0m
@@ -2666,13 +2666,13 @@
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.13.0!sbt-assembly.jar (1925ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.13.0!sbt-assembly.jar (5164ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar ...[0m
 [0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar[0m
 [0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle) (667ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle) (2269ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar[0m
@@ -2729,19 +2729,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8099ms :: artifacts dl 2659ms[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT compile produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT runtime produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT test produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT provided produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT optional produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT compile-internal produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT runtime-internal produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT test-internal produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT plugin produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT sources produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT docs produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT pom produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT scala-tool produced in /home/ec2-user/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8099ms resolve - 2659ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 12876ms :: artifacts dl 7461ms[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT compile produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT runtime produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT test produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT provided produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT optional produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT compile-internal produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT runtime-internal produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT test-internal produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT plugin produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT sources produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT docs produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT pom produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-simple-app-build;0.1-SNAPSHOT scala-tool produced in /Users/yu-yamano/spark-simple-app/project/target/resolution-cache/reports/default-spark-simple-app-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (12876ms resolve - 7461ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

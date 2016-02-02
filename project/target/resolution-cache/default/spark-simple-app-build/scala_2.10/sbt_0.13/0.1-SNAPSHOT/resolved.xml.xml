@@ -4,7 +4,7 @@
 		module="spark-simple-app-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160115030514"
+		publication="20160202101258"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
