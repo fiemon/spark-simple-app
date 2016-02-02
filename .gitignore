@@ -1,5 +1,10 @@
 *.log
+.metastore_db
+.target
+.project/project/*
+.project/target/*
 .idea
+.idea/*
 metastore_db/*
 target/*
 project/project/*
