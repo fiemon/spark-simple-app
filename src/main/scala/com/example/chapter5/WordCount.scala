@@ -9,7 +9,9 @@ object WordCount {
       "ドライバプログラムの引数に単語をカウントする" +
       "ファイルへのパスを指定してください")
 
-    val conf = new SparkConf
+    // val conf = new SparkConf
+    val conf = new SparkConf().setAppName("WordCount")
+
     val sc = new SparkContext(conf)
 
     try {
