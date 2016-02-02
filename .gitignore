@@ -1,6 +1,9 @@
 *.log
-.idea
+metastore_db
 metastore_db/*
+target
 target/*
 project/project/*
 project/target/*
+.idea
+.idea/*
