@@ -7,3 +7,5 @@ project/project/*
 project/target/*
 .idea
 .idea/*
+src/.idea
+src/.idea/*
